@@ -1,0 +1,5 @@
+- name: Send a message
+  copy:
+    content: |
+      this is a test
+    dest: /root/ROLETEST
