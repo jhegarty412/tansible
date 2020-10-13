@@ -20,7 +20,7 @@ has happened you will receive an email automatically from AWX.
 ## Host provisioning
 Once the service and host have both been defined there will be templates in tower for the service that will
 allow provisioning the related host. Access to these jobs are granted based on AD groups that are
-created from the grouper grouper. This process takes approximately 15 minutes after the service and host
+created from the grouper group. This process takes approximately 15 minutes after the service and host
 approvals happen.
 
 The templates are named "Provision Job SERVICE-NAME SYSTEM-CLASS" and "Deprovision Job SERVICE-NAME SYSTEM-CLASS".
