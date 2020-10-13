@@ -18,12 +18,12 @@ run the create host job. At this point SMG will be notified to approve the new h
 has happened you will receive an email automatically from AWX.
 
 ## Host provisioning
-Once the service and host have both been defined there will be templates in tower for the service that will
-allow provisioning the related host. Access to these jobs are granted based on AD groups that are
+Once the service and host have both been defined there will be templates added in AWX for the service that will
+allow provisioning the host. Access to these jobs are granted based on AD groups that are
 created from the grouper group. This process takes approximately 15 minutes after the service and host
 approvals happen.
 
 The templates are named "Provision Job SERVICE-NAME SYSTEM-CLASS" and "Deprovision Job SERVICE-NAME SYSTEM-CLASS".
 Launch the appropriate template for the service and system class for the host you wish to create. It will prompt for 
 a limit which is the hostname to be created. Click NEXT and LAUNCH. When the job is done running the host will be 
-created and you can login via ssh using your AD credentials.
+created and you can login via ssh using your AD credentials. Provisioning takes around ten minutes.
