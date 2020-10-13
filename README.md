@@ -8,7 +8,7 @@ The first two templates are used to define services and hosts.
 
 ## Service creation
 If you need to create a service tap the rocket icon next to the "0 Create Service" template.
-It will then ask you to fill in the name of the new service along with the group cohorts for each
+It will then ask you to fill in the name of the new service along with the grouper cohorts for each
 system class. Click NEXT and then LAUNCH to run the create service job.
 
 ## Host creation
