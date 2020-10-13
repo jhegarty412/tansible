@@ -21,7 +21,8 @@ has happened you will receive an email automatically from AWX.
 Once the service and host have both been defined there will be templates added in AWX for the service that will
 allow provisioning the host. Access to these jobs are granted based on AD groups that are
 created from the grouper group. This process takes approximately 15 minutes after the service and host
-approvals happen.
+approvals happen. Until that happens the new templates will not appear in AWX. You may need to log out and back into AWX
+to refresh your user permissions.
 
 The templates are named "Provision Job SERVICE-NAME SYSTEM-CLASS" and "Deprovision Job SERVICE-NAME SYSTEM-CLASS".
 Launch the appropriate template for the service and system class for the host you wish to create. It will prompt for 
